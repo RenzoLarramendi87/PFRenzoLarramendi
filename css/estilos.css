@@ -29,6 +29,14 @@ main {
     background-color: rgb(26, 24, 24);
 }
 
+form{
+    color: aliceblue;
+}
+
+.form-text {
+    color: aliceblue;
+}
+
 
 
 
