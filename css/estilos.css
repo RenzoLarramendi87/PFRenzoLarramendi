@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+/* menu */
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color:#a3dae7
+
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+
+/* estilos main */
+
+main {
+    background-color: rgb(26, 24, 24);
+}
+
+
+
+
+/* Media queries */
+/* sm */
+@media (max-width:768px) {
+    #intro {
+        width: 90%;
+    }
+}
+
+
+/* estilo footer */
+
+.contenedor-icono svg {
+    width: 100px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.div-footer {
+    display: flex;
+    justify-content: right;
+}
