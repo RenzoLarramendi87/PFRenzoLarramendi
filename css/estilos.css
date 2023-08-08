@@ -3,6 +3,8 @@ body {
     overflow-x: hidden;
 }
 
+
+
 /* menu */
 #menu a{
     font-size: 18px;
@@ -37,6 +39,12 @@ form{
     color: aliceblue;
 }
 
+#Inicio {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: black;
+    
+}
 
 
 
