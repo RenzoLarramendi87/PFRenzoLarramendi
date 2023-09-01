@@ -1,3 +1,18 @@
+/* Error: Undefined mixin.
+ *    ,
+ * 78 | /     @include media-breakpoint-only(lg) {
+ * 79 | |       column-count: 4;
+ * 80 | \     }
+ *    '
+ *   scss\modules\condicionales.scss 78:5  root stylesheet */
 
-
-/*# sourceMappingURL=condicionales.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 78 \2502  \250c      @include media-breakpoint-only(lg) {\a 79 \2502  \2502        column-count: 4;\a 80 \2502  \2514      }\a    \2575 \a   scss\\modules\\condicionales.scss 78:5  root stylesheet";
+}
