@@ -1,11 +1,17 @@
+
 // NAVBAR
 
 // Generate series of `.navbar-expand-*` responsive classes for configuring
 // where your navbar collapses.
-.navbar-expand {
-    @each $breakpoint in map-keys($grid-breakpoints) {
-      $next: breakpoint-next($breakpoint, $grid-breakpoints);
-      $infix: breakpoint-infix($next, $grid-breakpoints);
+.navbar-expand{@each $breakpoint in map-keys($grid-breakpoints) {
+  $next: breakpoint-next($breakpoint, $grid-breakpoints);
+  $infix: breakpoint-infix($next, $grid-breakpoints);
+
+
+} 
+    
+    
+      
   
       // stylelint-disable-next-line scss/selector-no-union-class-name
       &#{$infix} {
@@ -68,7 +74,7 @@
         }
       }
     }
-  }
+  
 
 
 
@@ -116,6 +122,9 @@ $color-mode-type: data;
   }
 }
 
+main{
+  background-color: $blue;
+}
 
 .carousel slide {
   display: flex;
@@ -132,13 +141,14 @@ $color-mode-type: data;
 
 
 // Color del encabezado h2
-$color-h2: #3498db;
+$color-h2: #6db1e9;
 
 // Tamaño de fuente del encabezado h2
 $tamanio-fuente-h2: 24px;
 
 // Encabezado h2
-h2 {
+
+h2{
   font-size: $tamanio-fuente-h2;
   color: $color-h2;
   font-weight: bold; 
@@ -147,12 +157,21 @@ h2 {
   
      &:hover {
       text-decoration: underline; 
+  
+
     }
-  }
+
+  }    
+  
+    
+    
+    
+
+// Footer
 
   .footer {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 20px;
 }
@@ -160,6 +179,6 @@ h2 {
   
 
 
-
-  @import "../node_modules/bootstrap/scss/bootstrap.scss";
-
+  
+ 
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
