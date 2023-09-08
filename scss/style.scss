@@ -121,10 +121,7 @@ $color-mode-type: data;
   }
 }
 
-main{
-  background-color: $blue; !important
-  
-}
+ 
 
 .carousel slide {
   display: flex;
@@ -172,6 +169,7 @@ h2{
 // Footer
 
 .footer {
+  display: flex;
   background-color: #333;
   color: #ffffff;
   text-align: center;
@@ -181,7 +179,4 @@ h2{
 
   
 
-
-  
- 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
